@@ -4,6 +4,7 @@
     <Page id="page" title="{i18n>title}">
         <content >
          <Button id='button_id' text="Click me to get wishes" type="Accept" press="onClick" />
+         <Input id='input-id' placeholder="hai" />
         </content>
     </Page>
 </mvc:View>
