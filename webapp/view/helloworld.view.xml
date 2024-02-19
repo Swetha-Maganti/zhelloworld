@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.sap.zhelloworld.controller.helloworld"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+         <Button id='button_id' text="Click me to get wishes" type="Accept" press="onClick" />
+        </content>
+    </Page>
+</mvc:View>
